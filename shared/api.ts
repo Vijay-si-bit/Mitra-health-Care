@@ -9,4 +9,6 @@
  */
 export interface DemoResponse {
   message: string;
+  timestamp?: string;
+  receivedData?: any;
 }

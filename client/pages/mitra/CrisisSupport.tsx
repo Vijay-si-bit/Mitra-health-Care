@@ -54,7 +54,8 @@ export default function CrisisSupport() {
             <div className="rounded-lg border p-4">
               <div className="font-medium">Guided meditation</div>
               <audio controls className="mt-2 w-full">
-                <source src="" />
+                <source src="/audio/meditation.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
               </audio>
             </div>
             <div className="rounded-lg border p-4">
