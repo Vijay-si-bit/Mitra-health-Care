@@ -1,6 +1,3 @@
 [build]
-command = npm run build
-publish = dist/spa
-
-[functions]
-directory = "netlify/functions"
+  command = "pnpm install && pnpm run build:client"
+  publish = "dist"
